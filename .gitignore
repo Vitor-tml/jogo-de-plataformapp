@@ -76,3 +76,44 @@ _deps
 *-prefix/
 
 # End of https://www.toptal.com/developers/gitignore/api/cmake
+
+# Created by https://www.toptal.com/developers/gitignore/api/obsidian
+# Edit at https://www.toptal.com/developers/gitignore?templates=obsidian
+
+### Obsidian ###
+# config dir
+.obsidian/
+
+# End of https://www.toptal.com/developers/gitignore/api/obsidian
+
+# Diretórios de compilação gerados pelo CMake
+/build/
+/CMakeFiles/
+/CMakeScripts/
+/CMakeCache.txt
+/CMakeScripts/
+
+# Arquivos gerados pelo CMake
+/CMakeLists.txt.user
+/*.cmake.user
+/*.cmake.user.in
+
+# Arquivos do Visual Studio Code (se você estiver usando o VSCode como IDE)
+/.vscode/
+
+# Diretório de instalação (se você usar `make install` com CMake)
+/install/
+
+# Fim de linha
+.idea/
+*.suo
+*.user
+*.sln.docstates
+*.suo
+*.user
+*.os
+*.userosscache
+*.suo
+*.user
+*.os
+*.userosscache
